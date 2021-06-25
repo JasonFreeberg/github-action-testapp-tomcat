@@ -50,4 +50,4 @@ jobs:
         app-name: 'freeberg-jboss-ase-test-site'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_35c5740bb116490f97a4338bfb78b477 }}
-        package: '*.'
+        package: '*.war'
